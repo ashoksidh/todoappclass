@@ -47,7 +47,6 @@ import Todoapplist from './Todoapplist'
   
    
    handleCheck(index) {
-    // code to create line through completed item
     this.setState(state => ({
       completed: { ...this.state.completed,[index]: !this.state.completed[index] }
     }));
